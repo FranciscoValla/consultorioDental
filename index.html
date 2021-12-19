@@ -10,8 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- estilos.css -->
     <link rel="stylesheet" href="estilos.css">
-    <!-- animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- LightGalery.css -->
+    <link rel="stylesheet" href="lightgallery.css">
 <body>
 
     <header>
@@ -172,13 +172,62 @@
 
       </div>
 
-  <!-- --------------------------------------------------- -->
-  <h2>Hola que tal</h2>
-  <h2>Hola que tal</h2>
-  <h2>Hola que tal</h2>
-  <h2>Hola que tal</h2>
-    </main>
+      <div class="tratamientos">
+        <div>
+          <span class="tratamientos-titulo">Todos nuestros tratamientos y servicios dentales</span>
+          <ul>
+            <li>Tratamiento odontologico 1</li>
+            <li>Tratamiento odontologico 2</li>
+            <li>Tratamiento odontologico 3</li>
+            <li>Tratamiento odontologico 4</li>
+            <li>Tratamiento odontologico 5</li>
+            <li>Tratamiento odontologico 6</li>
+          </ul></div>
+      </div>
 
+  <!-- --------------------------------------------------- -->
+
+      <div class="tarjetas-titulo">
+        <div class="card">
+          <div class="card-header">
+            Sobre Nosotros
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nuestro Consultorio</h5>
+            <p class="card-text">En Nuestro consultorio contamos con una instalaciones que cumple todas las normas de higiene, salud mas aun por la pandemia, para brindarles un trabajo integral.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div id="lightgallery">
+        <a href="media/galeria-01.jpg">
+            <img src="media/galeria-01.jpg" />
+        </a>
+        <a href="media/galeria-02.jpg">
+            <img src="media/galeria-02.jpg" />
+        </a>
+        <a href="media/bg-tratamientos.jpg">
+          <img src="media/bg-tratamientos.jpg" />
+        </a>
+        <a href="media/galeria-03.jpg">
+          <img src="media/galeria-03.jpg" />
+      </a>
+      <a href="media/galeria-04.jpg">
+        <img src="media/galeria-04.jpg" />
+    </a>
+      </div>
+
+
+
+    </main>
+    <!-- LightGalery -->
+    <script src="lightgallery.min.js"></script>
+    <script type="text/javascript">
+      lightGallery(document.getElementById('lightgallery'), {
+        mode: 'lg-fade',
+        cssEasing : 'cubic-bezier(0.25, 0, 0.25, 1)'
+      }); 
+    </script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/bdd1e8d3b0.js" crossorigin="anonymous"></script>
     <!-- JavaScript bootstrap -->
