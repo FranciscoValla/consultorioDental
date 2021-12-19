@@ -230,11 +230,11 @@ header .icono{
         padding: 0 10px; padding-left: 10px;
     }
     header .icono{
-        width: 180px; height: 150px;
+        width: 160px; height: 150px;
         margin:8px 4px;
     }
     .icono .i{
-        width: 100px; height: 100px;
+        width: 90px; height: 90px;
         margin: 10px 40px;
         border-radius: 50%;
         background-color: white;
